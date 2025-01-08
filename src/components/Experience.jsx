@@ -6,6 +6,8 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import bootstrap from "../assets/bootstrap.png"
+import mongodb from "../assets/mongodb.png"
 
 const Experience = () => {
   const techs = [
@@ -35,10 +37,22 @@ const Experience = () => {
     },
     {
       id: 5,
+      src: mongodb,
+      title: "Mongodb",
+      style: "shadow-green-600",
+    },
+    {
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },  
+    {
+      id: 7,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-400",
+    },
     {
       id: 8,
       src: github,
